@@ -9,4 +9,10 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  // Método de exemplo
+  @Get('/batata')
+  batata() {
+    return 'Hello Batata';
+  }
 }
